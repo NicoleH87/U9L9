@@ -1,25 +1,21 @@
-/*public class PointTester
-{
-    public static void main(String[] args)
-    {
-        Point pointA = new Point("A", 5, -7);
-        Point pointB = new Point("B", 5, -7);
-        Point pointC = new Point("C", 6, 4);
-
-        System.out.println(pointA);
-        System.out.println(pointB);
-        System.out.println(pointC);
-
-        System.out.println(pointA.equals(pointB));
-        System.out.println(pointA.equals(pointC));
-    }
-} */
-
 public class PointTester
 {
     public static void main(String[] args)
     {
-        ThreeDPoint pointD = new ThreeDPoint("D", 12, -3, 8);
+            Point pointA = new Point("A", 5, -7);
+            Point pointB = new Point("B", 5, -7);
+            Point pointC = new Point("C", 6, 4);
+
+            System.out.println(pointA);
+            System.out.println(pointB);
+            System.out.println(pointC);
+
+            System.out.println(pointA.equals(pointB));
+            System.out.println(pointA.equals(pointC));
+
+            System.out.println();
+
+            ThreeDPoint pointD = new ThreeDPoint("D", 12, -3, 8);
         ThreeDPoint pointE = new ThreeDPoint("E", 12, -3, 8);
         ThreeDPoint pointF = new ThreeDPoint("F", 12, -3, 4);
         ThreeDPoint pointG = new ThreeDPoint("G", 10, -3, 8);
@@ -38,5 +34,3 @@ public class PointTester
         System.out.println(pointG.equals(pointH));
     }
 }
-
-

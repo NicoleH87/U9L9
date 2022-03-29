@@ -13,13 +13,13 @@ public class ThreeDPoint extends Point {
     }
 
     public boolean equals(Object obj) {
-        if (obj == null || obj instanceof ThreeDPoint)
+        if (obj == null || !(obj instanceof ThreeDPoint))
         {
             return false;
         }
 
         ThreeDPoint objPoint = (ThreeDPoint) obj;
 
-        return super.equals(obj) && this.z == objPoint.z;
+        return (super.equals(objPoint)) && (this.z == objPoint.z);
     }
 }
